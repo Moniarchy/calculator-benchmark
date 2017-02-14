@@ -17,8 +17,20 @@ div {
 }
 
 .calculator-row {
-  height: 51px;
-  border-top: solid grey .5px;
+  height: 47px;
+  border-top: solid #a0a0a0 .5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calculator-cell {
+  border: .5px grey solid;
+  padding: 20px;
+  border-left: 0px;
+  border-bottom: 0px;
+  margin-top: -1px;
+
 }
 
 .calculator-answer-screen {
