@@ -32,7 +32,7 @@ In stage 1 you will only be using `HTML` and `CSS` to build a clone of the OS X 
 
 ##### Specs
 
-- [ ] All text is in the [Roboto](https://fonts.google.com/specimen/Roboto) web font
+- [X] All text is in the [Roboto](https://fonts.google.com/specimen/Roboto) web font
 - [ ] Your `HTML` and `CSS` follows this [style guide](https://google.github.io/styleguide/htmlcssguide.xml)
 - [ ] The calculator is positioned in the center of the page, both vertically and horizontally
 - [ ] The calculator is a fixed size. It does not change in size when the page resizes.
