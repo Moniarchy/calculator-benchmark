@@ -16,6 +16,7 @@ div {
   flex-direction: column;
   margin-left: 500px;
   margin-top: 200px;
+  box-shadow: 0px 2px 20px 3px #a0a0a0
 }
 
 .calculator-row {
@@ -53,6 +54,11 @@ div {
 
 .calculator-zero  {
   padding-right: 70px;
+  border-bottom-left-radius: 7px;
+}
+
+.calculator-equals {
+  border-bottom-right-radius: 7px;
 }
 
 .calculator-divide, .calculator-multiply, .calculator-subtract, .calculator-add, .calculator-equals {
