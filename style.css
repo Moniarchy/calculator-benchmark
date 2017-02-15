@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 div {
@@ -7,67 +7,88 @@ div {
 }
 
 .calculator-body {
-  height: 318px;
-  width: 230px;
-  border-radius: 7px;
   border: solid grey 1px;
-  border-top: 0px;
+  border-top: 0;
+  border-radius: 7px;
+  box-shadow: 0px 14px 20px 5px #a0a0a0;
   display: flex;
   flex-direction: column;
+  height: 318px;
   margin-left: 500px;
   margin-top: 200px;
-  box-shadow: 0px 2px 20px 3px #a0a0a0
+  width: 230px;
 }
 
 .calculator-row {
-  height: 47px;
   border-top: solid #a0a0a0 .5px;
   display: flex;
   flex-direction: row;
+  height: 47px;
   justify-content: space-between;
 }
 
 .calculator-cell {
-  border: .5px grey solid;
-  width: 33px;
-  height: 23px;
-  padding: 12px;
-  border-left: 0px;
-  border-bottom: 0px;
-  margin-top: -1px;
-  text-align: center;
-  font-size: 22px;
   background-color: #e0e0e0;
+  border: .5px grey solid;
+  border-left: 0;
+  border-bottom: 0;
+  font-size: 22px;
+  height: 23px;
+  margin-top: -1px;
+  padding: 12px;
+  text-align: center;
+  width: 33px;
+}
+
+.calculator-cell:hover {
+  background-color: #a6a6a6
 }
 
 .calculator-answer-screen {
-  height: 80px;
-  width: 230px;
+  align-items: flex-end;
   background-color: #a0a0a0;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   color: white;
   display: flex;
+  font-style: thin;
+  height: 80px;
   justify-content: flex-end;
-  align-items: flex-end;
+  width: 230px;
 }
 
 .calculator-zero  {
-  padding-right: 70px;
   border-bottom-left-radius: 7px;
+  padding-right: 70px;
 }
 
 .calculator-equals {
   border-bottom-right-radius: 7px;
 }
 
-.calculator-divide, .calculator-multiply, .calculator-subtract, .calculator-add, .calculator-equals {
+.calculator-divide,
+.calculator-multiply,
+.calculator-subtract,
+.calculator-add,
+.calculator-equals {
   background-color: #f5923f;
+  border-right: 0;
   color: white;
-  border-right: 0px;
+  transition: color 100ms;
 }
 
-.calculator-AC, .calculator-positive-negative, .calculator-percent {
+.calculator-divide:hover,
+.calculator-multiply:hover,
+.calculator-subtract:hover,
+.calculator-add:hover,
+.calculator-equals:hover {
+  background-color: #da680b;
+  color: #a0a0a0
+}
+
+.calculator-AC,
+.calculator-positive-negative,
+.calculator-percent {
   background-color: #d6d6d6;
 }
 
