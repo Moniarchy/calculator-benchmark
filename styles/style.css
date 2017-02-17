@@ -2,11 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-div {
-  border: grey;
-}
-
-.calculator-body {
+#calculator-body {
   border: solid grey 1px;
   border-top: 0;
   border-radius: 7px;
